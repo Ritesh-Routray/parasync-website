@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="38%" r="75%"><stop offset="0" stop-color="#14264a"/><stop offset="0.55" stop-color="#0b1220"/><stop offset="1" stop-color="#06080d"/></radialGradient>
+  <linearGradient id="fig" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a3550"/><stop offset="1" stop-color="#151b2b"/></linearGradient>
+  <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity="0.04"/></pattern>
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  
+</defs>
+<rect width="800" height="600" fill="url(#bg)"/>
+<rect width="800" height="600" fill="url(#grid)"/>
+<rect x="40" y="60" width="480" height="330" rx="18" fill="#0b1020" fill-opacity="0.92" stroke="#ffffff" stroke-opacity="0.12"/><rect x="40" y="60" width="480" height="330" rx="18" fill="url(#bg)" opacity="0.6"/><ellipse cx="283.0" cy="364.9" rx="126.50000000000001" ry="8.8" fill="#000" opacity="0.45"/>
+<g filter="url(#glow)" opacity="0.95"><circle cx="250" cy="300" r="60.50000000000001" fill="none" stroke="#3b82f6" stroke-width="2.75"/><circle cx="250" cy="300" r="52.03000000000001" fill="none" stroke="#60a5fa" stroke-opacity="0.6" stroke-width="1.375"/></g>
+<line x1="250" y1="300" x2="302.03000000000003" y2="300.0" stroke="#60a5fa" stroke-opacity="0.35" stroke-width="0.8250000000000001"/>
+<line x1="250" y1="300" x2="295.0593017589043" y2="326.015" stroke="#60a5fa" stroke-opacity="0.35" stroke-width="0.8250000000000001"/>
+<line x1="250" y1="300" x2="276.015" y2="345.0593017589043" stroke="#60a5fa" stroke-opacity="0.35" stroke-width="0.8250000000000001"/>
+<line x1="250" y1="300" x2="250.0" y2="352.03000000000003" stroke="#60a5fa" stroke-opacity="0.35" stroke-width="0.8250000000000001"/>
+<line x1="250" y1="300" x2="223.985" y2="345.0593017589043" stroke="#60a5fa" stroke-opacity="0.35" stroke-width="0.8250000000000001"/>
+<line x1="250" y1="300" x2="204.94069824109565" y2="326.015" stroke="#60a5fa" stroke-opacity="0.35" stroke-width="0.8250000000000001"/>
+<line x1="250" y1="300" x2="197.97" y2="300.0" stroke="#60a5fa" stroke-opacity="0.35" stroke-width="0.8250000000000001"/>
+<line x1="250" y1="300" x2="204.94069824109565" y2="273.985" stroke="#60a5fa" stroke-opacity="0.35" stroke-width="0.8250000000000001"/>
+<line x1="250" y1="300" x2="223.98499999999999" y2="254.94069824109567" stroke="#60a5fa" stroke-opacity="0.35" stroke-width="0.8250000000000001"/>
+<line x1="250" y1="300" x2="250.0" y2="247.97" stroke="#60a5fa" stroke-opacity="0.35" stroke-width="0.8250000000000001"/>
+<line x1="250" y1="300" x2="276.015" y2="254.94069824109565" stroke="#60a5fa" stroke-opacity="0.35" stroke-width="0.8250000000000001"/>
+<line x1="250" y1="300" x2="295.0593017589043" y2="273.98499999999996" stroke="#60a5fa" stroke-opacity="0.35" stroke-width="0.8250000000000001"/>
+<circle cx="250" cy="300" r="4.95" fill="#60a5fa"/>
+<path d="M228.0,245.0 L332.5,265.9 L340.75,311.0 L351.75,345.1" fill="none" stroke="#6b7a99" stroke-width="3.8500000000000005" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M228.0,245.0 L217.0,181.75" fill="none" stroke="#6b7a99" stroke-width="3.8500000000000005" stroke-linecap="round"/>
+<circle cx="351.75" cy="345.1" r="12.100000000000001" fill="none" stroke="#3b82f6" stroke-width="2.2"/>
+<line x1="244.5" y1="242.25" x2="324.25" y2="261.5" stroke="url(#fig)" stroke-width="25.3" stroke-linecap="round"/>
+<line x1="324.25" y1="261.5" x2="332.5" y2="322.0" stroke="url(#fig)" stroke-width="20.900000000000002" stroke-linecap="round"/>
+<line x1="332.5" y1="322.0" x2="351.75" y2="326.4" stroke="url(#fig)" stroke-width="13.200000000000001" stroke-linecap="round"/>
+<line x1="244.5" y1="242.25" x2="261.0" y2="187.25" stroke="url(#fig)" stroke-width="38.5" stroke-linecap="round"/>
+<line x1="261.0" y1="187.25" x2="302.25" y2="225.75" stroke="url(#fig)" stroke-width="18.700000000000003" stroke-linecap="round"/>
+<line x1="302.25" y1="225.75" x2="288.5" y2="265.9" stroke="url(#fig)" stroke-width="15.400000000000002" stroke-linecap="round"/>
+<circle cx="272.0" cy="151.5" r="18.700000000000003" fill="url(#fig)"/>
+<g filter="url(#glow)" stroke="#34d399" stroke-width="2.2" stroke-linecap="round"><line x1="272.0" y1="151.5" x2="263.75" y2="176.25"/><line x1="263.75" y1="176.25" x2="261.0" y2="187.25"/><line x1="261.0" y1="187.25" x2="244.5" y2="242.25"/><line x1="261.0" y1="187.25" x2="302.25" y2="225.75"/><line x1="302.25" y1="225.75" x2="288.5" y2="265.9"/><line x1="244.5" y1="242.25" x2="324.25" y2="261.5"/><line x1="324.25" y1="261.5" x2="332.5" y2="322.0"/><line x1="332.5" y1="322.0" x2="351.75" y2="326.4"/></g>
+<circle cx="272.0" cy="151.5" r="3.8500000000000005" fill="#fff" stroke="#34d399" stroke-width="1.6500000000000001"/>
+<circle cx="263.75" cy="176.25" r="3.8500000000000005" fill="#fff" stroke="#34d399" stroke-width="1.6500000000000001"/>
+<circle cx="261.0" cy="187.25" r="3.8500000000000005" fill="#fff" stroke="#34d399" stroke-width="1.6500000000000001"/>
+<circle cx="302.25" cy="225.75" r="3.8500000000000005" fill="#fff" stroke="#34d399" stroke-width="1.6500000000000001"/>
+<circle cx="288.5" cy="265.9" r="3.8500000000000005" fill="#fff" stroke="#34d399" stroke-width="1.6500000000000001"/>
+<circle cx="244.5" cy="242.25" r="3.8500000000000005" fill="#fff" stroke="#34d399" stroke-width="1.6500000000000001"/>
+<circle cx="324.25" cy="261.5" r="3.8500000000000005" fill="#fff" stroke="#34d399" stroke-width="1.6500000000000001"/>
+<circle cx="332.5" cy="322.0" r="3.8500000000000005" fill="#fff" stroke="#34d399" stroke-width="1.6500000000000001"/>
+<circle cx="351.75" cy="326.4" r="3.8500000000000005" fill="#fff" stroke="#34d399" stroke-width="1.6500000000000001"/><g><rect x="60" y="80" width="150" height="34" rx="17" fill="#0b1220" fill-opacity="0.85" stroke="#f87171" stroke-opacity="0.6"/><circle cx="77" cy="97" r="5" fill="#f87171"/><text x="90" y="102" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#e5edff">LIVE · 1-ON-1</text></g><text x="60" y="372" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#e5edff" fill-opacity="1" text-anchor="start">Coach: Siddharth Murthy</text><rect x="550" y="60" width="210" height="150" rx="18" fill="#0e1626" fill-opacity="0.92" stroke="#ffffff" stroke-opacity="0.12"/><circle cx="655" cy="120" r="30" fill="#2a3550"/><circle cx="655" cy="112" r="11" fill="#6b7a99"/><path d="M634,138 Q655,118 676,138" fill="#6b7a99"/><text x="655" y="186" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#e5edff" fill-opacity="1" text-anchor="middle">Athlete</text><rect x="550" y="230" width="210" height="160" rx="18" fill="#0e1626" fill-opacity="0.92" stroke="#ffffff" stroke-opacity="0.12"/><text x="570" y="262" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" fill="#60a5fa" fill-opacity="1" text-anchor="start">NOTES</text><text x="570" y="292" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="500" fill="#e5edff" fill-opacity="1" text-anchor="start">0:42  Elbow drops early</text><text x="570" y="320" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="500" fill="#e5edff" fill-opacity="1" text-anchor="start">1:15  Good trunk lean</text><text x="570" y="348" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="500" fill="#e5edff" fill-opacity="1" text-anchor="start">2:03  Push cadence ↑</text><rect x="40" y="420" width="720" height="130" rx="18" fill="#0e1626" fill-opacity="0.92" stroke="#ffffff" stroke-opacity="0.12"/><text x="64" y="456" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" fill="#60a5fa" fill-opacity="1" text-anchor="start">ASSIGNED TRAINING</text><rect x="64" y="474" width="212" height="52" rx="12" fill="#3b82f6" fill-opacity="0.13" stroke="#3b82f6" stroke-opacity="0.5"/><text x="80" y="506" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#e5edff" fill-opacity="1" text-anchor="start">Sprint intervals 6×30s</text><rect x="296" y="474" width="212" height="52" rx="12" fill="#34d399" fill-opacity="0.13" stroke="#34d399" stroke-opacity="0.5"/><text x="312" y="506" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#e5edff" fill-opacity="1" text-anchor="start">Shoulder mobility 15 min</text><rect x="528" y="474" width="212" height="52" rx="12" fill="#fbbf24" fill-opacity="0.13" stroke="#fbbf24" stroke-opacity="0.5"/><text x="544" y="506" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#e5edff" fill-opacity="1" text-anchor="start">Cadence drills 3×5</text>
+</svg>
