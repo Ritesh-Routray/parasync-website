@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import Protected from "@/components/Protected";
@@ -8,7 +8,7 @@ import AppShell from "@/components/AppShell";
 import { discoverAthletes, Athlete } from "@/lib/api";
 import CompareView from "@/components/CompareView";
 
-export default function ScoutComparePage() {
+function ScoutCompareContent() {
   const searchParams = useSearchParams();
   const [athletes, setAthletes] = useState<Athlete[]>([]);
   const [loading, setLoading] = useState(true);
@@ -34,5 +34,13 @@ export default function ScoutComparePage() {
         />
       </AppShell>
     </Protected>
+  );
+}
+
+export default function ScoutComparePage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-navy" />}>
+      <ScoutCompareContent />
+    </Suspense>
   );
 }

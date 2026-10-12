@@ -1,13 +1,13 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import Protected from "@/components/Protected";
 import AppShell from "@/components/AppShell";
 import { discoverAthletes, Athlete } from "@/lib/api";
 import MultiCompareView from "@/components/MultiCompareView";
 
-export default function ScoutMultiComparePage() {
+function ScoutMultiCompareContent() {
   const searchParams = useSearchParams();
   const [athletes, setAthletes] = useState<Athlete[]>([]);
   const [loading, setLoading] = useState(true);
@@ -25,5 +25,13 @@ export default function ScoutMultiComparePage() {
         <MultiCompareView athletes={athletes} loadingAthletes={loading} initialIds={initialIds} />
       </AppShell>
     </Protected>
+  );
+}
+
+export default function ScoutMultiComparePage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-navy" />}>
+      <ScoutMultiCompareContent />
+    </Suspense>
   );
 }
